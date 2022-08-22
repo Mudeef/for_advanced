@@ -16,5 +16,11 @@ obj.increase_salary()
 obj.display()
 obj.decrease_salary()
 obj.display()
-
+print("-----------------------------------------------------------")
+obj2=Employee("Raseen", 30, 5000)
+obj2.display()
+obj2.increase_salary()
+obj2.display()
+obj2.decrease_salary()
+obj2.display()
 
