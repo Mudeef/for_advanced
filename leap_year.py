@@ -10,3 +10,10 @@ def leap_year(y):
 print(leap_year(1900))
 print(leap_year(2004))
 print(leap_year(2022))
+
+print("=================================================")
+
+from calendar import monthrange
+year = 2016
+month = 2
+print(monthrange(year, month)[1])
